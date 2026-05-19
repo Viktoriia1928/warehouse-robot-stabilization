@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<sdf version="1.10">
+  <!-- This file exists only so 'model://walking_person/meshes/walk.dae' resolves.
+       Actors are declared per-instance directly in the world SDF. -->
+  <model name="walking_person_placeholder">
+    <static>true</static>
+    <link name="link"/>
+  </model>
+</sdf>
